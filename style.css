@@ -1817,17 +1817,12 @@ body:not(.edit) .bck-flipbox-face.back {
 /*------------------------------------ ENLACE ----------------------------------------------*/
 #actividad a {
   text-decoration: underline;
-  background: #FBBF28;
   color: #0068B3;
-  padding: 3px 10px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
   font-weight: 700;
 }
 
 #actividad a:hover {
-  padding: 3px 20px;
+color: #f89c38;
 }
 
 /*Botón de sonido*/
