@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./generic/blink-src/js/cke_styles.js":
+/***/ "./santillana-pt-obs/blink-src/js/cke_styles.js":
 /*!********************************************!*\
-  !*** ./generic/blink-src/js/cke_styles.js ***!
+  !*** ./santillana-pt-obs/blink-src/js/cke_styles.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -99,18 +99,77 @@ __webpack_require__.r(__webpack_exports__);
 *   Array con la definición de los estilos para el editor de CKEditor
 */
 const ckeStyles = [
-  {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
-  {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
-  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
+  { name: 'Título principal', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
+  { name: 'Título principal 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
+  { name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
+  { name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
+  { name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
+
+  { name: 'Lista ordenada naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+  { name: 'Lista ordenada roja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+
+  { name: 'Lista desordenada naranja', element: 'ul', attributes: { 'class': 'bck-ul-2' } },
+  { name: 'Lista desordenada roja', element: 'ul', attributes: { 'class': 'bck-ul-3' } },
+
+  { name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
+  { name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
+  { name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-3' } },				
+  { name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },				
+  { name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },				
+  { name: 'Caja naranja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
+  { name: 'Caja azul claro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
+  { name: 'Caja morada', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-8' } },
+  { name: 'Caja azul oscuro', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-9' } },
+  { name: 'Caja Dorado', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-10' } },
+  { name: 'Caja roja', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-11' } },
+  { name: 'Caja verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-12' } },
+  { name: 'Caja amarilla', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-13' } },
+  { name: 'Caja rosa', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-14' } },
+
+  { name: 'Énfasis naranja', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+  { name: 'Énfasis azul claro', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+  { name: 'Énfasis morado', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+  { name: 'Énfasis azul oscuro', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+  { name: 'Énfasis dorado', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
+  { name: 'Énfasis rojo', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
+  { name: 'Énfasis verde', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
+  { name: 'Énfasis amarillo', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
+  { name: 'Énfasis rosa', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
+
+  { name: 'Tabla Naranja', element: 'table', attributes: { 'class': 'bck-table bck-table-1' } },
+  { name: 'Tabla Azul', element: 'table', attributes: { 'class': 'bck-table bck-table-2' } },
+  { name: 'Tabla Magenta', element: 'table', attributes: { 'class': 'bck-table bck-table-3' } },
+  { name: 'Tabla Dorada', element: 'table', attributes: { 'class': 'bck-table bck-table-4' } },
+  { name: 'Tabla Azul', element: 'table', attributes: { 'class': 'bck-table bck-table-5' } },
+  { name: 'Tabla Naranja', element: 'table', attributes: { 'class': 'bck-table bck-table-6' } },
+  { name: 'Tabla Verde', element: 'table', attributes: { 'class': 'bck-table bck-table-7' } },
+  { name: 'Tabla Rosa', element: 'table', attributes: { 'class': 'bck-table bck-table-8' } },
+
+  { name: 'Celda Naranja 1', element: 'td', attributes: { 'class': 'bck-td-1' } },
+  { name: 'Celda Naranja 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
+  { name: 'Celda Azul 1', element: 'td', attributes: { 'class': 'bck-td-3' } },
+  { name: 'Celda Azul 2', element: 'td', attributes: { 'class': 'bck-td-4' } },
+  { name: 'Celda Magenta 1', element: 'td', attributes: { 'class': 'bck-td-5' } },
+  { name: 'Celda Magenta 2', element: 'td', attributes: { 'class': 'bck-td-6' } },
+  { name: 'Celda Dorado 1', element: 'td', attributes: { 'class': 'bck-td-7' } },
+  { name: 'Celda Dorado 2', element: 'td', attributes: { 'class': 'bck-td-8' } },
+  { name: 'Celda Azul oscuro 1', element: 'td', attributes: { 'class': 'bck-td-9' } },
+  { name: 'Celda Azul oscuro 2', element: 'td', attributes: { 'class': 'bck-td-10' } },
+  { name: 'Celda Roja 1', element: 'td', attributes: { 'class': 'bck-td-11' } },
+  { name: 'Celda Roja 2', element: 'td', attributes: { 'class': 'bck-td-12' } },
+  { name: 'Celda Verde 1', element: 'td', attributes: { 'class': 'bck-td-13' } },
+  { name: 'Celda Verde 2', element: 'td', attributes: { 'class': 'bck-td-14' } },
+  { name: 'Celda Rosa 1', element: 'td', attributes: { 'class': 'bck-td-15' } },
+  { name: 'Celda Rosa  2', element: 'td', attributes: { 'class': 'bck-td-16' } }
   // Añadir elementos CKEditor aquí.
 ];
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
 
 /***/ }),
 
-/***/ "./generic/blink-src/js/layout/main.js":
+/***/ "./santillana-pt-obs/blink-src/js/layout/main.js":
 /*!*********************************************!*\
-  !*** ./generic/blink-src/js/layout/main.js ***!
+  !*** ./santillana-pt-obs/blink-src/js/layout/main.js ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -887,18 +946,18 @@ class Layout {
 
 /***/ }),
 
-/***/ "./generic/blink-src/js/main.js":
+/***/ "./santillana-pt-obs/blink-src/js/main.js":
 /*!**************************************!*\
-  !*** ./generic/blink-src/js/main.js ***!
+  !*** ./santillana-pt-obs/blink-src/js/main.js ***!
   \**************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./generic/blink-src/js/cke_styles.js");
-/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./generic/blink-src/js/overrides.js");
-/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./generic/blink-src/js/layout/main.js");
+/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./santillana-pt-obs/blink-src/js/cke_styles.js");
+/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./santillana-pt-obs/blink-src/js/overrides.js");
+/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./santillana-pt-obs/blink-src/js/layout/main.js");
 /*
 *   Javascript principal con la estructura básica del estilo
 */
@@ -909,16 +968,16 @@ __webpack_require__.r(__webpack_exports__);
 (function (blink) {
   'use strict';
 
-  var GenericStyle = function () {
+  var SantillanaPtObsStyle = function () {
     blink.theme.styles.basic.apply(this, arguments);
   };
 
-  GenericStyle.prototype = {
+  SantillanaPtObsStyle.prototype = {
     parent: blink.theme.styles.basic.prototype,
-    bodyClassName: 'content_type_clase_generic',
+    bodyClassName: 'content_type_clase_santillana-pt-obs',
     extraPlugins: ['image2'],
     ckEditorStyles: {
-      name: 'generic',
+      name: 'santillana-pt-obs',
       styles: _cke_styles__WEBPACK_IMPORTED_MODULE_0__["default"]
     },
     init: function () {
@@ -929,15 +988,15 @@ __webpack_require__.r(__webpack_exports__);
     },
     ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
   };
-  GenericStyle.prototype = _.extend({}, new blink.theme.styles.basic(), GenericStyle.prototype);
-  blink.theme.styles['generic'] = GenericStyle;
+  SantillanaPtObsStyle.prototype = _.extend({}, new blink.theme.styles.basic(), SantillanaPtObsStyle.prototype);
+  blink.theme.styles['santillana-pt-obs'] = SantillanaPtObsStyle;
 })(blink);
 
 /***/ }),
 
-/***/ "./generic/blink-src/js/overrides.js":
+/***/ "./santillana-pt-obs/blink-src/js/overrides.js":
 /*!*******************************************!*\
-  !*** ./generic/blink-src/js/overrides.js ***!
+  !*** ./santillana-pt-obs/blink-src/js/overrides.js ***!
   \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1008,9 +1067,9 @@ const overrides = {
 
 /***/ }),
 
-/***/ "./generic/blink-src/styles/main.scss":
+/***/ "./santillana-pt-obs/blink-src/styles/main.scss":
 /*!********************************************!*\
-  !*** ./generic/blink-src/styles/main.scss ***!
+  !*** ./santillana-pt-obs/blink-src/styles/main.scss ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1023,13 +1082,13 @@ const overrides = {
 
 /***/ 0:
 /*!*********************************************************************************!*\
-  !*** multi ./generic/blink-src/js/main.js ./generic/blink-src/styles/main.scss ***!
+  !*** multi ./santillana-pt-obs/blink-src/js/main.js ./santillana-pt-obs/blink-src/styles/main.scss ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\generic\blink-src\js\main.js */"./generic/blink-src/js/main.js");
-module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\generic\blink-src\styles\main.scss */"./generic/blink-src/styles/main.scss");
+__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\santillana-pt-obs\blink-src\js\main.js */"./santillana-pt-obs/blink-src/js/main.js");
+module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\santillana-pt-obs\blink-src\styles\main.scss */"./santillana-pt-obs/blink-src/styles/main.scss");
 
 
 /***/ })
