@@ -86,9 +86,9 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./santillana-pt-obs/blink-src/js/cke_styles.js":
+/***/ "./SantillanaPtObs/blink-src/js/cke_styles.js":
 /*!********************************************!*\
-  !*** ./santillana-pt-obs/blink-src/js/cke_styles.js ***!
+  !*** ./SantillanaPtObs/blink-src/js/cke_styles.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -167,9 +167,9 @@ const ckeStyles = [
 
 /***/ }),
 
-/***/ "./santillana-pt-obs/blink-src/js/layout/main.js":
+/***/ "./SantillanaPtObs/blink-src/js/layout/main.js":
 /*!*********************************************!*\
-  !*** ./santillana-pt-obs/blink-src/js/layout/main.js ***!
+  !*** ./SantillanaPtObs/blink-src/js/layout/main.js ***!
   \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -946,18 +946,18 @@ class Layout {
 
 /***/ }),
 
-/***/ "./santillana-pt-obs/blink-src/js/main.js":
+/***/ "./SantillanaPtObs/blink-src/js/main.js":
 /*!**************************************!*\
-  !*** ./santillana-pt-obs/blink-src/js/main.js ***!
+  !*** ./SantillanaPtObs/blink-src/js/main.js ***!
   \**************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./santillana-pt-obs/blink-src/js/cke_styles.js");
-/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./santillana-pt-obs/blink-src/js/overrides.js");
-/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./santillana-pt-obs/blink-src/js/layout/main.js");
+/* harmony import */ var _cke_styles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cke_styles */ "./SantillanaPtObs/blink-src/js/cke_styles.js");
+/* harmony import */ var _overrides__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./overrides */ "./SantillanaPtObs/blink-src/js/overrides.js");
+/* harmony import */ var _layout_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout/main */ "./SantillanaPtObs/blink-src/js/layout/main.js");
 /*
 *   Javascript principal con la estructura básica del estilo
 */
@@ -974,10 +974,10 @@ __webpack_require__.r(__webpack_exports__);
 
   SantillanaPtObsStyle.prototype = {
     parent: blink.theme.styles.basic.prototype,
-    bodyClassName: 'content_type_clase_santillana-pt-obs',
+    bodyClassName: 'content_type_clase_SantillanaPtObs',
     extraPlugins: ['image2'],
     ckEditorStyles: {
-      name: 'santillana-pt-obs',
+      name: 'SantillanaPtObs',
       styles: _cke_styles__WEBPACK_IMPORTED_MODULE_0__["default"]
     },
     init: function () {
@@ -989,14 +989,14 @@ __webpack_require__.r(__webpack_exports__);
     ..._overrides__WEBPACK_IMPORTED_MODULE_1__["default"]
   };
   SantillanaPtObsStyle.prototype = _.extend({}, new blink.theme.styles.basic(), SantillanaPtObsStyle.prototype);
-  blink.theme.styles['santillana-pt-obs'] = SantillanaPtObsStyle;
+  blink.theme.styles['SantillanaPtObs'] = SantillanaPtObsStyle;
 })(blink);
 
 /***/ }),
 
-/***/ "./santillana-pt-obs/blink-src/js/overrides.js":
+/***/ "./SantillanaPtObs/blink-src/js/overrides.js":
 /*!*******************************************!*\
-  !*** ./santillana-pt-obs/blink-src/js/overrides.js ***!
+  !*** ./SantillanaPtObs/blink-src/js/overrides.js ***!
   \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1067,9 +1067,9 @@ const overrides = {
 
 /***/ }),
 
-/***/ "./santillana-pt-obs/blink-src/styles/main.scss":
+/***/ "./SantillanaPtObs/blink-src/styles/main.scss":
 /*!********************************************!*\
-  !*** ./santillana-pt-obs/blink-src/styles/main.scss ***!
+  !*** ./SantillanaPtObs/blink-src/styles/main.scss ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1082,13 +1082,13 @@ const overrides = {
 
 /***/ 0:
 /*!*********************************************************************************!*\
-  !*** multi ./santillana-pt-obs/blink-src/js/main.js ./santillana-pt-obs/blink-src/styles/main.scss ***!
+  !*** multi ./SantillanaPtObs/blink-src/js/main.js ./SantillanaPtObs/blink-src/styles/main.scss ***!
   \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\santillana-pt-obs\blink-src\js\main.js */"./santillana-pt-obs/blink-src/js/main.js");
-module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\santillana-pt-obs\blink-src\styles\main.scss */"./santillana-pt-obs/blink-src/styles/main.scss");
+__webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\SantillanaPtObs\blink-src\js\main.js */"./SantillanaPtObs/blink-src/js/main.js");
+module.exports = __webpack_require__(/*! D:\workspaces\web\blinkweb\blink\www\themes\responsive\assets\styles\SantillanaPtObs\blink-src\styles\main.scss */"./SantillanaPtObs/blink-src/styles/main.scss");
 
 
 /***/ })
