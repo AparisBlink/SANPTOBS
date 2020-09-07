@@ -137,11 +137,11 @@ const ckeStyles = [
     { name: 'Énfasis rosa', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
   
     { name: 'Tabla Naranja', element: 'table', attributes: { 'class': 'bck-table bck-table-1' } },
-    { name: 'Tabla Azul', element: 'table', attributes: { 'class': 'bck-table bck-table-2' } },
+    { name: 'Tabla Azul claro', element: 'table', attributes: { 'class': 'bck-table bck-table-2' } },
     { name: 'Tabla Magenta', element: 'table', attributes: { 'class': 'bck-table bck-table-3' } },
     { name: 'Tabla Dorada', element: 'table', attributes: { 'class': 'bck-table bck-table-4' } },
-    { name: 'Tabla Azul', element: 'table', attributes: { 'class': 'bck-table bck-table-5' } },
-    { name: 'Tabla Naranja', element: 'table', attributes: { 'class': 'bck-table bck-table-6' } },
+    { name: 'Tabla Azul oscuro', element: 'table', attributes: { 'class': 'bck-table bck-table-5' } },
+    { name: 'Tabla Roja', element: 'table', attributes: { 'class': 'bck-table bck-table-6' } },
     { name: 'Tabla Verde', element: 'table', attributes: { 'class': 'bck-table bck-table-7' } },
     { name: 'Tabla Rosa', element: 'table', attributes: { 'class': 'bck-table bck-table-8' } },
   
