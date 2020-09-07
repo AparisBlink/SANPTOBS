@@ -2011,6 +2011,16 @@ color: #f89c38;
   color: white;
 }
 
+#actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+    background-color: #f7a041a6;
+    border-color: #f7a041;
+}
+#actividad .workspace.chooseblanks .inline-answer a:hover {
+    background-color: #f1b87a;
+    color: #414141;
+    border-color: #cfcfcf;
+}
+
 /*Ordenar palabras*/
 #actividad .workspace.ordenar .js-rank-item {
   border: 2px solid #f7a041;
