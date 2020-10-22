@@ -333,6 +333,7 @@
         margin: 0 auto;
         padding-left: 90px;
         padding-right: 50px;
+        margin-top: 12px;
     }
 
     .content_type_clase_panamericana2020 .logo-publisher {
@@ -341,7 +342,6 @@
     }
     .content_type_clase_panamericana2020 .logo-publisher {
         content: " ";
-        background-image: url(logo-blink.png);
         background-repeat: no-repeat;
         float: left;
         background-size: contain;
@@ -350,6 +350,7 @@
         width: 400px;
         margin-left: -100px;
         margin-right: -100px;
+        margin-top: -6px;
     }
 
     .content_type_clase_panamericana2020 .slider-indicators {
@@ -1332,6 +1333,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 
     .content_type_clase_panamericana2020 .logo-publisher {
         margin-right: 0px;
+        width: 240px;
     }
 }
 
